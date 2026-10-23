@@ -1,6 +1,6 @@
 #fix_the_rules.py
 #This program checks a connection against three rules.
-#1. طلب المدخلات من المستخدم
+#1.requesting input from the user
 role = input("Role: ")
 #2. الخطا هو لم يتم التحويل لعدد صحيح ونوعه (runtime error: typeerror) ويرسل مسج خطا انه كان سيتوقف البرنامج في السطر الثاني لانه لا يمكن مقارنة نص مع رقم 
 port = int(input("Port: "))
