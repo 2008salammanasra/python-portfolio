@@ -16,5 +16,6 @@ print("\n not(port != 22) i predict true ")
 print(not(port != 22))
 print("\n port > 50 or user == 'admin' i predict false ")
 print(port >50 or user == "admin" )
-
+print("\n user != 'analyst' or port >=15 ? i pretict true")
+print(user != "analyst" or port >=15 )
 
