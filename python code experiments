@@ -1,0 +1,46 @@
+print("salam manasra")
+port = 22
+print(type(port))
+username ="salam"
+print(username)
+print()
+print("salam","manasra")
+message = "hello_world"
+print(message)
+MAX_LOGIN_ATTEMPTS = 3
+print("Maximum login attempts:",MAX_LOGIN_ATTEMPTS)
+ssh_port, http_port, https_port = 22, 80, 443
+print("shh:",ssh_port)
+print("http:",http_port)
+print("https:",https_port)
+print(type(2.3))
+print(type("hello"))
+print(2+55)
+value = 18
+print(value, type(value))
+print(str(18),type(str(18)))
+print(type(value))
+print(4/2)
+print(4//2)
+print(2+(3**3))
+user = "admin"
+domin = "ppu.edu"
+print(user+"@"+domin)
+print("=" * 15)
+line = "-" * 20
+print(line)
+MAX_FAILED = 6
+faild = 4
+
+if faild >= MAX_FAILED:
+    print("warning: too many failed logins.")
+else:
+    print("you have attempts remaining.")
+print()
+port = int(input("entar port:"))
+if port <= 100:
+    print("system port (well known)")
+elif port <= 50000:
+    print("user port (registered)")
+else:
+    print("dynamic or private port")
