@@ -44,3 +44,19 @@ elif port <= 50000:
     print("user port (registered)")
 else:
     print("dynamic or private port")
+print()
+print(type(True))
+print(bool(23))
+print(bool("salam"))
+print(bool(0))
+port = 80
+username = "salam" 
+role = "guest"
+is_admin = username == "salam"
+print(username == "manasra")
+print(port >= 80 )
+print(role != "admin" and (not port == 50))
+print(port < 100 or username == "salam")
+print(is_admin and not port == 3)
+if role == "guest":
+   print("welcome")
