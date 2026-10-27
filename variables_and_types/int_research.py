@@ -10,4 +10,4 @@ print(int("0022"))
 #predict: works. reason: underscores are allowed in numeric literals for readability
 print(int("2_2"))
 #4.cite: the address of the official python documentation page used:
-#decumentation link: http//python.org
+#decumentation link: https://docs.python.org/3/library/functions.html#int
