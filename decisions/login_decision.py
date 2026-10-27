@@ -1,3 +1,5 @@
+#login_decision.py
+#simulates auser login system with account lockout and credential validation.
 MAX_FAILED = 5
 KNOWN_USER = "analyst"
 STORED_PASSWORD = "Blue#Falcon72"
