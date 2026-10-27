@@ -1,3 +1,5 @@
+#risk_score.py
+#clculates and evaluates a security risk score based on user login behaviors.
 score = 0
 Failed_attempts = int(input("failed:")) 
 Login_hour = int(input("enter login hour:")) #(0-23)
