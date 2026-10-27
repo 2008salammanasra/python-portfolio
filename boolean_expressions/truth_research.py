@@ -1,3 +1,5 @@
+#truth_research.py
+#explores truthy and falsy values in python.
 #رابط التوثيق الرسمي من بايثون حول قيم الصدق
 #https://python.org
 #الحالة الاولى :bool("") التوقع: false
