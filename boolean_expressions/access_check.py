@@ -1,3 +1,5 @@
+#access_check.py
+#this program verifies user login access and role privileges.
 MAX_FAILED = 5
 rote = input("enter rote: ")
 mfa_passed = input("enter mfa: ")
