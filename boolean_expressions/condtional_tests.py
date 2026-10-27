@@ -1,3 +1,5 @@
+#condional_tests.py
+#this program demonstrates conditional tests and logical operations in python.
 user = "analyst"
 role = "viewer"
 failed = 3
