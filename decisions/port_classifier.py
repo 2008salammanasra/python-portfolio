@@ -1,3 +1,5 @@
+#port_classifier.py
+#classifies network ports into standard categories and identifies common services like ssh or http.
 port = int(input("Enter your port:"))
 if port < 0 or port > 65535:
     print("Invalid port: use a number from 0 to 65535")
